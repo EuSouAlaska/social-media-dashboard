@@ -132,7 +132,7 @@ table {
 
 /* fim reset */
 
-:root {
+body {
   /* light theme */
   --white: hsl(0, 0%, 100%);
   --bg-pattern: hsl(225, 100%, 98%);
@@ -145,6 +145,15 @@ table {
   --twitter: hsl(203, 89%, 53%);
   --youTube: hsl(348, 97%, 39%);
   --insta-gradiente: linear-gradient(89.73deg, #fdc468 -19.78%, #df4996 99.86%);
+}
+.ativo {
+  /* dark theme */
+  --white: hsl(230, 17%, 14%);
+  --bg-pattern: hsl(232, 19%, 15%);
+  --bg-card: hsl(228, 28%, 20%);
+  --bg-card-hover: hsl(228, 28%, 30%);
+  --text-black: hsl(0, 0%, 100%);
+  --text-semi-black: hsl(228, 34%, 66%);
 }
 /* estilos */
 body {
